@@ -16,9 +16,9 @@
 
 PRODUCT_COPY_FILES += \
     vendor/samsung/a7y17lte/proprietary/bin/cbd:system/bin/cbd \
-    vendor/samsung/a7y17lte/proprietary/lib/libsec-ril-dsds.so:system/lib/libsec-ril-dsds.so \
-    vendor/samsung/a7y17lte/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so \
     vendor/samsung/a7y17lte/proprietary/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
-    vendor/samsung/a7y17lte/proprietary/lib64/libsec-ril-dsds.so:system/lib64/libsec-ril-dsds.so \
-    vendor/samsung/a7y17lte/proprietary/lib64/libsec-ril.so:system/lib64/libsec-ril.so \
-    vendor/samsung/a7y17lte/proprietary/lib64/libsecnativefeature.so:system/lib64/libsecnativefeature.so
+    vendor/samsung/a7y17lte/proprietary/lib64/libsecnativefeature.so:system/lib64/libsecnativefeature.so \
+    vendor/samsung/a7y17lte/proprietary/vendor/lib/libsec-ril-dsds.so:system/vendor/lib/libsec-ril-dsds.so \
+    vendor/samsung/a7y17lte/proprietary/vendor/lib/libsec-ril.so:system/vendor/lib/libsec-ril.so \
+    vendor/samsung/a7y17lte/proprietary/vendor/lib64/libsec-ril-dsds.so:system/vendor/lib64/libsec-ril-dsds.so \
+    vendor/samsung/a7y17lte/proprietary/vendor/lib64/libsec-ril.so:system/vendor/lib64/libsec-ril.so
