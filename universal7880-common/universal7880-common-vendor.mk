@@ -45,12 +45,10 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal7880-common/proprietary/app/mcRegistry/ffffffffd00000000000000000000017.tlbin:system/app/mcRegistry/ffffffffd00000000000000000000017.tlbin \
     vendor/samsung/universal7880-common/proprietary/app/mcRegistry/fffffffff0000000000000000000001b.tlbin:system/app/mcRegistry/fffffffff0000000000000000000001b.tlbin \
     vendor/samsung/universal7880-common/proprietary/app/mcRegistry/fffffffff0000000000000000000001e.tlbin:system/app/mcRegistry/fffffffff0000000000000000000001e.tlbin \
-    vendor/samsung/universal7880-common/proprietary/bin/gpsd:system/bin/gpsd \
     vendor/samsung/universal7880-common/proprietary/bin/mcDriverDaemon:system/bin/mcDriverDaemon \
     vendor/samsung/universal7880-common/proprietary/bin/sensorhubservice:system/bin/sensorhubservice \
     vendor/samsung/universal7880-common/proprietary/bin/wcnss_filter:system/bin/wcnss_filter \
     vendor/samsung/universal7880-common/proprietary/etc/Tfa9896.cnt:system/etc/Tfa9896.cnt \
-    vendor/samsung/universal7880-common/proprietary/etc/ca.pem:system/etc/ca.pem \
     vendor/samsung/universal7880-common/proprietary/etc/firmware/Data.msc:system/etc/firmware/Data.msc \
     vendor/samsung/universal7880-common/proprietary/etc/firmware/bdwlan30.bin:system/etc/firmware/bdwlan30.bin \
     vendor/samsung/universal7880-common/proprietary/etc/firmware/bdwlan32.bin:system/etc/firmware/bdwlan32.bin \
@@ -88,7 +86,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal7880-common/proprietary/lib/libtfa98xx.so:system/lib/libtfa98xx.so \
     vendor/samsung/universal7880-common/proprietary/lib/libuniapi.so:system/lib/libuniapi.so \
     vendor/samsung/universal7880-common/proprietary/lib/libuniplugin.so:system/lib/libuniplugin.so \
-    vendor/samsung/universal7880-common/proprietary/lib/libwrappergps.so:system/lib/libwrappergps.so \
     vendor/samsung/universal7880-common/proprietary/lib/modules/qca_cld/qca_cld_wlan.ko:system/lib/modules/qca_cld/qca_cld_wlan.ko \
     vendor/samsung/universal7880-common/proprietary/lib/omx/libOMX.Exynos.AVC.Decoder.so:system/lib/omx/libOMX.Exynos.AVC.Decoder.so \
     vendor/samsung/universal7880-common/proprietary/lib/omx/libOMX.Exynos.AVC.Encoder.so:system/lib/omx/libOMX.Exynos.AVC.Encoder.so \
@@ -101,7 +98,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal7880-common/proprietary/lib/omx/libOMX.Exynos.VP9.Decoder.so:system/lib/omx/libOMX.Exynos.VP9.Decoder.so \
     vendor/samsung/universal7880-common/proprietary/lib/omx/libOMX.Exynos.WMV.Decoder.so:system/lib/omx/libOMX.Exynos.WMV.Decoder.so \
     vendor/samsung/universal7880-common/proprietary/lib64/hw/camera.vendor.exynos5.so:system/lib64/hw/camera.vendor.exynos5.so \
-    vendor/samsung/universal7880-common/proprietary/lib64/hw/gps.default.so:system/lib64/hw/gps.default.so \
     vendor/samsung/universal7880-common/proprietary/lib64/hw/gralloc.exynos5.so:system/lib64/hw/gralloc.exynos5.so \
     vendor/samsung/universal7880-common/proprietary/lib64/hw/sensorhubs.universal7880.so:system/lib64/hw/sensorhubs.universal7880.so \
     vendor/samsung/universal7880-common/proprietary/lib64/hw/sensors.universal7880.so:system/lib64/hw/sensors.universal7880.so \
@@ -122,7 +118,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal7880-common/proprietary/lib64/libsynaFpSensorTestNwd.so:system/lib64/libsynaFpSensorTestNwd.so \
     vendor/samsung/universal7880-common/proprietary/lib64/libuniapi.so:system/lib64/libuniapi.so \
     vendor/samsung/universal7880-common/proprietary/lib64/libuniplugin.so:system/lib64/libuniplugin.so \
-    vendor/samsung/universal7880-common/proprietary/lib64/libwrappergps.so:system/lib64/libwrappergps.so \
     vendor/samsung/universal7880-common/proprietary/lib64/libstagefrighthw.so:system/lib64/libstagefrighthw.so \
     vendor/samsung/universal7880-common/proprietary/lib64/omx/libOMX.Exynos.AVC.Decoder.so:system/lib64/omx/libOMX.Exynos.AVC.Decoder.so \
     vendor/samsung/universal7880-common/proprietary/lib64/omx/libOMX.Exynos.AVC.Encoder.so:system/lib64/omx/libOMX.Exynos.AVC.Encoder.so \
@@ -134,6 +129,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal7880-common/proprietary/lib64/omx/libOMX.Exynos.VP8.Encoder.so:system/lib64/omx/libOMX.Exynos.VP8.Encoder.so \
     vendor/samsung/universal7880-common/proprietary/lib64/omx/libOMX.Exynos.VP9.Decoder.so:system/lib64/omx/libOMX.Exynos.VP9.Decoder.so \
     vendor/samsung/universal7880-common/proprietary/lib64/omx/libOMX.Exynos.WMV.Decoder.so:system/lib64/omx/libOMX.Exynos.WMV.Decoder.so \
+    vendor/samsung/universal7880-common/proprietary/vendor/bin/hw/gpsd:system/vendor/bin/hw/gpsd \
+    vendor/samsung/universal7880-common/proprietary/vendor/etc/gnss/ca.pem:system/vendor/etc/gnss/ca.pem \
     vendor/samsung/universal7880-common/proprietary/vendor/firmware/fimc_is_lib.bin:system/vendor/firmware/fimc_is_lib.bin \
     vendor/samsung/universal7880-common/proprietary/vendor/firmware/mfc_fw.bin:system/vendor/firmware/mfc_fw.bin \
     vendor/samsung/universal7880-common/proprietary/vendor/firmware/nfc/sec_s3nrn81_firmware.bin:system/vendor/firmware/nfc/sec_s3nrn81_firmware.bin \
@@ -147,13 +144,16 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal7880-common/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/samsung/universal7880-common/proprietary/vendor/lib/libril.so:system/vendor/lib/libril.so \
     vendor/samsung/universal7880-common/proprietary/vendor/lib/vendor.samsung.hardware.radio@1.0.so:system/vendor/lib/vendor.samsung.hardware.radio@1.0.so \
+    vendor/samsung/universal7880-common/proprietary/vendor/lib/libwrappergps.so:system/vendor/lib/libwrappergps.so \
     vendor/samsung/universal7880-common/proprietary/vendor/lib64/egl/libGLES_mali.so:system/vendor/lib64/egl/libGLES_mali.so \
     vendor/samsung/universal7880-common/proprietary/vendor/lib64/hw/nfc_nci.default.so:system/vendor/lib64/hw/nfc_nci.default.so \
     vendor/samsung/universal7880-common/proprietary/lib64/libMcClient.so:system/lib64/libMcClient.so \
     vendor/samsung/universal7880-common/proprietary/lib64/libMcRegistry.so:system/lib64/libMcRegistry.so \
     vendor/samsung/universal7880-common/proprietary/vendor/lib64/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib64/mediadrm/libdrmclearkeyplugin.so \
+    vendor/samsung/universal7880-common/proprietary/vendor/lib64/hw/gps.default.so:system/vendor/lib64/hw/gps.default.so \
     vendor/samsung/universal7880-common/proprietary/vendor/lib64/libril.so:system/vendor/lib64/libril.so \
-    vendor/samsung/universal7880-common/proprietary/vendor/lib64/vendor.samsung.hardware.radio@1.0.so:system/vendor/lib64/vendor.samsung.hardware.radio@1.0.so
+    vendor/samsung/universal7880-common/proprietary/vendor/lib64/vendor.samsung.hardware.radio@1.0.so:system/vendor/lib64/vendor.samsung.hardware.radio@1.0.so \
+    vendor/samsung/universal7880-common/proprietary/vendor/lib64/libwrappergps.so:system/vendor/lib64/libwrappergps.so
 
 ifeq ($(WITH_EXYNOS_BSP),)
 PRODUCT_COPY_FILES += \
