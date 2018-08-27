@@ -145,11 +145,15 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal7880-common/proprietary/lib/libMcRegistry.so:system/lib/libMcRegistry.so \
     vendor/samsung/universal7880-common/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib/mediadrm/libdrmclearkeyplugin.so \
     vendor/samsung/universal7880-common/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
+    vendor/samsung/universal7880-common/proprietary/vendor/lib/libril.so:system/vendor/lib/libril.so \
+    vendor/samsung/universal7880-common/proprietary/vendor/lib/vendor.samsung.hardware.radio@1.0.so:system/vendor/lib/vendor.samsung.hardware.radio@1.0.so \
     vendor/samsung/universal7880-common/proprietary/vendor/lib64/egl/libGLES_mali.so:system/vendor/lib64/egl/libGLES_mali.so \
     vendor/samsung/universal7880-common/proprietary/vendor/lib64/hw/nfc_nci.default.so:system/vendor/lib64/hw/nfc_nci.default.so \
     vendor/samsung/universal7880-common/proprietary/lib64/libMcClient.so:system/lib64/libMcClient.so \
     vendor/samsung/universal7880-common/proprietary/lib64/libMcRegistry.so:system/lib64/libMcRegistry.so \
-    vendor/samsung/universal7880-common/proprietary/vendor/lib64/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib64/mediadrm/libdrmclearkeyplugin.so
+    vendor/samsung/universal7880-common/proprietary/vendor/lib64/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib64/mediadrm/libdrmclearkeyplugin.so \
+    vendor/samsung/universal7880-common/proprietary/vendor/lib64/libril.so:system/vendor/lib64/libril.so \
+    vendor/samsung/universal7880-common/proprietary/vendor/lib64/vendor.samsung.hardware.radio@1.0.so:system/vendor/lib64/vendor.samsung.hardware.radio@1.0.so
 
 ifeq ($(WITH_EXYNOS_BSP),)
 PRODUCT_COPY_FILES += \
