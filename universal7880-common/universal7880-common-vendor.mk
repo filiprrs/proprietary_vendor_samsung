@@ -24,26 +24,14 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal7880-common/proprietary/app/mcRegistry/ffffffffd00000000000000000000004.tlbin:system/app/mcRegistry/ffffffffd00000000000000000000004.tlbin \
     vendor/samsung/universal7880-common/proprietary/app/mcRegistry/ffffffffd00000000000000000000017.tlbin:system/app/mcRegistry/ffffffffd00000000000000000000017.tlbin \
     vendor/samsung/universal7880-common/proprietary/app/mcRegistry/fffffffff0000000000000000000001b.tlbin:system/app/mcRegistry/fffffffff0000000000000000000001b.tlbin \
-    vendor/samsung/universal7880-common/proprietary/bin/sensorhubservice:system/bin/sensorhubservice \
     vendor/samsung/universal7880-common/proprietary/bin/wcnss_filter:system/bin/wcnss_filter \
-    vendor/samsung/universal7880-common/proprietary/etc/Tfa9896.cnt:system/etc/Tfa9896.cnt \
     vendor/samsung/universal7880-common/proprietary/etc/firmware/Data.msc:system/etc/firmware/Data.msc \
     vendor/samsung/universal7880-common/proprietary/etc/firmware/bdwlan30.bin:system/etc/firmware/bdwlan30.bin \
     vendor/samsung/universal7880-common/proprietary/etc/firmware/bdwlan32.bin:system/etc/firmware/bdwlan32.bin \
-    vendor/samsung/universal7880-common/proprietary/etc/firmware/nvm_tlv.bin:system/etc/firmware/nvm_tlv.bin \
-    vendor/samsung/universal7880-common/proprietary/etc/firmware/nvm_tlv_1.3.bin:system/etc/firmware/nvm_tlv_1.3.bin \
-    vendor/samsung/universal7880-common/proprietary/etc/firmware/nvm_tlv_2.1.bin:system/etc/firmware/nvm_tlv_2.1.bin \
-    vendor/samsung/universal7880-common/proprietary/etc/firmware/nvm_tlv_3.0.bin:system/etc/firmware/nvm_tlv_3.0.bin \
-    vendor/samsung/universal7880-common/proprietary/etc/firmware/nvm_tlv_3.2.bin:system/etc/firmware/nvm_tlv_3.2.bin \
     vendor/samsung/universal7880-common/proprietary/etc/firmware/nvm_tlv_tf_1.1.bin:system/etc/firmware/nvm_tlv_tf_1.1.bin \
     vendor/samsung/universal7880-common/proprietary/etc/firmware/otp30.bin:system/etc/firmware/otp30.bin \
     vendor/samsung/universal7880-common/proprietary/etc/firmware/qwlan30.bin:system/etc/firmware/qwlan30.bin \
     vendor/samsung/universal7880-common/proprietary/etc/firmware/qwlan30_ibss.bin:system/etc/firmware/qwlan30_ibss.bin \
-    vendor/samsung/universal7880-common/proprietary/etc/firmware/rampatch_tlv.img:system/etc/firmware/rampatch_tlv.img \
-    vendor/samsung/universal7880-common/proprietary/etc/firmware/rampatch_tlv_1.3.tlv:system/etc/firmware/rampatch_tlv_1.3.tlv \
-    vendor/samsung/universal7880-common/proprietary/etc/firmware/rampatch_tlv_2.1.tlv:system/etc/firmware/rampatch_tlv_2.1.tlv \
-    vendor/samsung/universal7880-common/proprietary/etc/firmware/rampatch_tlv_3.0.tlv:system/etc/firmware/rampatch_tlv_3.0.tlv \
-    vendor/samsung/universal7880-common/proprietary/etc/firmware/rampatch_tlv_3.2.tlv:system/etc/firmware/rampatch_tlv_3.2.tlv \
     vendor/samsung/universal7880-common/proprietary/etc/firmware/rampatch_tlv_tf_1.1.tlv:system/etc/firmware/rampatch_tlv_tf_1.1.tlv \
     vendor/samsung/universal7880-common/proprietary/etc/firmware/utf30.bin:system/etc/firmware/utf30.bin \
     vendor/samsung/universal7880-common/proprietary/etc/firmware/utfbd30.bin:system/etc/firmware/utfbd30.bin \
@@ -51,14 +39,13 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal7880-common/proprietary/etc/nfc/sec_s3nrn81_rfreg.bin:system/etc/nfc/sec_s3nrn81_rfreg.bin \
     vendor/samsung/universal7880-common/proprietary/lib/hw/camera.vendor.exynos5.so:system/lib/hw/camera.vendor.exynos5.so \
     vendor/samsung/universal7880-common/proprietary/lib/hw/gralloc.exynos5.so:system/lib/hw/gralloc.exynos5.so \
+    vendor/samsung/universal7880-common/proprietary/lib/hw/sensors.universal7880.so:system/lib/hw/sensors.universal7880.so \
     vendor/samsung/universal7880-common/proprietary/lib/libexynoscamera.so:system/lib/libexynoscamera.so \
     vendor/samsung/universal7880-common/proprietary/lib/libexynoscamera3.so:system/lib/libexynoscamera3.so \
     vendor/samsung/universal7880-common/proprietary/lib/libExynosOMX_Core.so:system/lib/libExynosOMX_Core.so \
     vendor/samsung/universal7880-common/proprietary/lib/libExynosOMX_Resourcemanager.so:system/lib/libExynosOMX_Resourcemanager.so \
     vendor/samsung/universal7880-common/proprietary/lib/libfloatingfeature.so:system/lib/libfloatingfeature.so \
     vendor/samsung/universal7880-common/proprietary/lib/libhwjpeg.so:system/lib/libhwjpeg.so \
-    vendor/samsung/universal7880-common/proprietary/lib/libprotobuf-cpp-fulN.so:system/lib/libprotobuf-cpp-fulN.so \
-    vendor/samsung/universal7880-common/proprietary/lib/libprotobuf-cpp-litN.so:system/lib/libprotobuf-cpp-litN.so \
     vendor/samsung/universal7880-common/proprietary/lib/libsensorlistener.so:system/lib/libsensorlistener.so \
     vendor/samsung/universal7880-common/proprietary/lib/libstagefrighthw.so:system/lib/libstagefrighthw.so \
     vendor/samsung/universal7880-common/proprietary/lib/libtfa98xx.so:system/lib/libtfa98xx.so \
@@ -85,10 +72,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal7880-common/proprietary/lib64/libExynosOMX_Resourcemanager.so:system/lib64/libExynosOMX_Resourcemanager.so \
     vendor/samsung/universal7880-common/proprietary/lib64/libfloatingfeature.so:system/lib64/libfloatingfeature.so \
     vendor/samsung/universal7880-common/proprietary/lib64/libhwjpeg.so:system/lib64/libhwjpeg.so \
-    vendor/samsung/universal7880-common/proprietary/lib64/libprotobuf-cpp-fulN.so:system/lib64/libprotobuf-cpp-fulN.so \
-    vendor/samsung/universal7880-common/proprietary/lib64/libprotobuf-cpp-litN.so:system/lib64/libprotobuf-cpp-litN.so \
-    vendor/samsung/universal7880-common/proprietary/lib64/libsensorhub.so:system/lib64/libsensorhub.so \
-    vendor/samsung/universal7880-common/proprietary/lib64/libsensorhubservice.so:system/lib64/libsensorhubservice.so \
     vendor/samsung/universal7880-common/proprietary/lib64/libsensorlistener.so:system/lib64/libsensorlistener.so \
     vendor/samsung/universal7880-common/proprietary/lib64/libuniapi.so:system/lib64/libuniapi.so \
     vendor/samsung/universal7880-common/proprietary/lib64/libuniplugin.so:system/lib64/libuniplugin.so \
@@ -126,6 +109,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal7880-common/proprietary/vendor/bin/hw/gpsd:system/vendor/bin/hw/gpsd \
     vendor/samsung/universal7880-common/proprietary/vendor/bin/mcDriverDaemon:system/vendor/bin/mcDriverDaemon \
     vendor/samsung/universal7880-common/proprietary/vendor/etc/gnss/ca.pem:system/vendor/etc/gnss/ca.pem \
+    vendor/samsung/universal7880-common/proprietary/vendor/etc/Tfa9896.cnt:system/vendor/etc/Tfa9896.cnt \
     vendor/samsung/universal7880-common/proprietary/vendor/firmware/fimc_is_lib.bin:system/vendor/firmware/fimc_is_lib.bin \
     vendor/samsung/universal7880-common/proprietary/vendor/firmware/mfc_fw.bin:system/vendor/firmware/mfc_fw.bin \
     vendor/samsung/universal7880-common/proprietary/vendor/firmware/nfc/sec_s3nrn81_firmware.bin:system/vendor/firmware/nfc/sec_s3nrn81_firmware.bin \
